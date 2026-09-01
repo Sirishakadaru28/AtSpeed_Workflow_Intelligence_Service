@@ -22,7 +22,7 @@ st.caption("ML-powered Work Item Risk Prediction & Prioritization")
 # Enter your running FastAPI service URL
 API_URL = st.sidebar.text_input(
     "FastAPI Service URL",
-    value="http://127.0.0.1:8003"
+    value="https://atspeed-workflow-intelligence-service.onrender.com"
 ).rstrip("/")
 
 
