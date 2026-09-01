@@ -88,7 +88,7 @@ with col2:
 
     status = st.selectbox(
         "Status",
-        ["OPEN", "IN_PROGRESS", "BLOCKED", "COMPLETED"]
+        ["OPEN", "IN_PROGRESS", "BLOCKED", "DONE"]
     )
 
     estimated_hours = st.number_input(
@@ -271,7 +271,7 @@ with col2:
 
 st.markdown("---")
 
-st.header("📊 Work Item Dashboard")
+st.header(" Work Item Dashboard")
 
 
 col1, col2 = st.columns(2)
@@ -284,7 +284,7 @@ col1, col2 = st.columns(2)
 with col1:
 
     if st.button(
-        "📋 Get All Work Items",
+        " Get All Work Items",
         use_container_width=True
     ):
 
@@ -333,7 +333,7 @@ with col1:
 with col2:
 
     if st.button(
-        "🚨 Show Prioritized Queue",
+        " Show Prioritized Queue",
         use_container_width=True
     ):
 
@@ -384,7 +384,7 @@ with col2:
 
 st.markdown("---")
 
-if st.button("💚 Check API Health"):
+if st.button(" Check API Health"):
 
     try:
 
